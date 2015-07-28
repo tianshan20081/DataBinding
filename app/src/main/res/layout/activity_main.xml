@@ -1,0 +1,30 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnSimpleDb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Simple DataBinding"
+                    />
+            <Button
+                android:id="@+id/btnListDb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List DataBinding"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>
